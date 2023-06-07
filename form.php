@@ -9,7 +9,7 @@
 <body>
     <form action="index.php" method="GET">
         <div>
-            <input type="text" name="badword" placeholder="Parola da censurare">
+            <input type="text" name="badWord" placeholder="Parola da censurare">
         </div>
         <div>
             <textarea name="paragraph" id="paragraph" cols="30" rows="10" placeholder="Inserisci del testo"></textarea>
