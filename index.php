@@ -9,7 +9,9 @@
 <body>
     <?php 
     $badWord = $_GET["badWord"];
+    $paragraph = $_GET["paragraph"];
     ?>
     <div>La parola da censurare è: <?php echo $badWord; ?> </div>
+    <div> <?php echo $paragraph; ?> </div>
 </body>
 </html>
